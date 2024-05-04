@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SearchMouseUI" verbose="2"  >
+	<test name="SearchMouseFormTests" >
+		<groups>
+			<run>
+				<include name="search-mice-match" />
+				<include name="search-mice-back" />
+				<include name="search-mice-invalid-values" />
+				<include name="search-mice-ui-behav" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.rocketninja.automation.search_mouse.ui.tests" />
+		</packages>
+	</test>
+</suite>
